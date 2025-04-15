@@ -11,8 +11,11 @@ import {
 	SelectValue,
 } from "@/components/ui/select";
 import { Link } from "react-router-dom";
-
+import { useEffect } from "react";
 export default function Contact() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<section className="py-32">
 			<div className="mx-auto max-w-4xl px-4 lg:px-0">

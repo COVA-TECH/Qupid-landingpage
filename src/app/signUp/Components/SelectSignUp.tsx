@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
-import siteImages from "@/assets/images/siteImages";
+// import siteImages from "@/assets/images/siteImages";
 import siteIcons from "@/assets/icons/siteIcons";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
 	// Dialog,
 	DialogContent,
@@ -9,7 +9,7 @@ import {
 	DialogTitle,
 } from "@/components/ui/dialog";
 
-const SelectSignUp = ({ setShowEmailSignUp }: any) => {
+const SelectSignUp = () => {
 	return (
 		<DialogContent className="px-20 rounded-3xl bg-secondary">
 			<DialogHeader>
@@ -21,7 +21,7 @@ const SelectSignUp = ({ setShowEmailSignUp }: any) => {
 					/>
 				</DialogTitle>
 			</DialogHeader>
-			<div className="w-full flex flex-col gap-3 ">
+			{/* <div className="w-full flex flex-col gap-3 ">
 				<img src={siteImages.birds} alt="" />
 				<Button
 					className="bg-primary rounded-3xl   outline-black text-white mt-10"
@@ -45,6 +45,14 @@ const SelectSignUp = ({ setShowEmailSignUp }: any) => {
 				<p className="text-center text-xs mt-5">
 					© [2024] COVA Technologies. All rights reserved.
 				</p>
+			</div> */}
+			<div className="w-full flex justify-between gap-5">
+				<a className="w-full" href="http://app.qupidapp.com/user/login">
+					<Button className="w-full">Login</Button>
+				</a>
+				<a className="w-full" href="https://app.qupidapp.com/user/sign-up">
+					<Button className="w-full">Sign up</Button>
+				</a>
 			</div>
 		</DialogContent>
 	);

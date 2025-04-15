@@ -19,7 +19,7 @@ const SignUpModelMobile = () => {
 	return (
 		<Dialog>
 			<DialogTrigger className="w-full py-2  rounded-xl outline outline-1 outline-primary hover:bg-primary hover:text-white">
-				Sign Up
+				Sign Up / Login
 			</DialogTrigger>
 
 			<>
