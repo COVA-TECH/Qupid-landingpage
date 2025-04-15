@@ -10,6 +10,8 @@ const siteLinks = {
 	cookie: "/cookie-policy",
 	help: "/help-and-support",
 	safety: "/safety-tips",
+	contact: "/contact-us",
+	copy: "/copyright",
 };
 
 export default siteLinks;

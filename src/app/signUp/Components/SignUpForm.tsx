@@ -69,7 +69,7 @@ const SignUpForm = () => {
 						<Label htmlFor="gender"></Label>I am a
 						<Select>
 							<SelectTrigger className="">
-								<SelectValue placeholder="gender" />
+								<SelectValue />
 							</SelectTrigger>
 							<SelectContent>
 								<SelectItem value="light">Man</SelectItem>

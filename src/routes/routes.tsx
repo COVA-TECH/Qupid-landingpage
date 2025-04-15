@@ -11,6 +11,8 @@ import SignUp from "@/pages/signUp";
 import CookiePolicy from "@/pages/cookiePolicy";
 import HelpPage from "@/pages/helpAndSupport";
 import SafetyTipsPage from "@/pages/safety";
+import Contact from "@/pages/contact";
+import Copyright from "@/pages/copyright";
 
 const router = createBrowserRouter([
 	{
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
 			{
 				path: siteLinks.help,
 				element: <HelpPage />,
+			},
+			{
+				path: siteLinks.contact,
+				element: <Contact />,
+			},
+			{
+				path: siteLinks.copy,
+				element: <Copyright />,
 			},
 		],
 	},

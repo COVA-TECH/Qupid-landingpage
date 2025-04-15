@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 
 import NavBar from "@/components/navigation/NavBar";
-import Footer from "@/components/navigation/Footer";
+import Footer from "@/components/navigation/Footer2";
 
 export default function Base() {
 	return (

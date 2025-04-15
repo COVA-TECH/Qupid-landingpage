@@ -67,7 +67,7 @@ const MobileNav = () => {
 const PcNav = () => {
 	return (
 		<header className="w-full flex justify-between  items-center px-28 mt-5 absolute z-10 ">
-			<Link to={siteLinks.signUp}>
+			<Link to={siteLinks.Home}>
 				<img className="w-20" src={siteIcons.logo} alt="qupid logo" />
 			</Link>
 			<div className="flex gap-10">
