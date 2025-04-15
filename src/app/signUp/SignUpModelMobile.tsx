@@ -10,25 +10,26 @@ import {
 // import siteImages from "@/assets/images/siteImages";
 // import siteIcons from "@/assets/icons/siteIcons";
 // import { Link } from "react-router-dom";
-import SignUpForm from "./Components/SignUpForm";
-import { useState } from "react";
+// import SignUpForm from "./Components/SignUpForm";
+// import { useState } from "react";
 import SelectSignUp from "./Components/SelectSignUp";
 
 const SignUpModelMobile = () => {
-	const [showEmailSignUP, setShowEmailSignUp] = useState(false);
+	// const [showEmailSignUP, setShowEmailSignUp] = useState(false);
 	return (
 		<Dialog>
 			<DialogTrigger className="w-full py-2  rounded-xl outline outline-1 outline-primary hover:bg-primary hover:text-white">
 				Sign Up / Login
 			</DialogTrigger>
 
-			<>
+			{/* <>
 				{!showEmailSignUP ? (
 					<SelectSignUp setShowEmailSignUp={setShowEmailSignUp} />
 				) : (
 					<SignUpForm />
 				)}
-			</>
+			</> */}
+			<SelectSignUp />
 		</Dialog>
 	);
 };
