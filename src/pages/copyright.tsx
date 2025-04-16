@@ -6,8 +6,11 @@ import {
 	BreadcrumbPage,
 	BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-
+import { useEffect } from "react";
 const Copyright = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<main className="min-h-screen pt-20 lg:pt-28 px-2 lg:px-28 py-20">
 			<div>
